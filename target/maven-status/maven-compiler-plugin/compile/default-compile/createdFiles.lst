@@ -1,0 +1,8 @@
+baseMethods\DriverFactory.class
+webPages\AdminPage.class
+webPages\PimPage.class
+webPages\LoginPage.class
+baseMethods\BaseClass.class
+Test\TestOrangeCRm\App.class
+baseMethods\BrowserManager.class
+webPages\HomePage.class
