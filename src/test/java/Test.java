@@ -9,7 +9,7 @@ import baseMethods.BaseClass;
 import baseMethods.DriverFactory;
 import webPages.AdminPage;
 import webPages.HomePage;
-import webPages.MyInfoClasss;
+import webPages.MyInfoClass;
 import webPages.PimPage;
 
 public class Test extends BaseClass
@@ -18,7 +18,7 @@ public class Test extends BaseClass
 private	HomePage hm = new HomePage();
 private PimPage pim = new PimPage();
 private AdminPage adp = new AdminPage();
-private MyInfoClass myc  = new MyInfoClasss();
+private MyInfoClass myc  = new MyInfoClass();
 
 
 	
