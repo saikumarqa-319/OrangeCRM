@@ -31,6 +31,7 @@ public  void launch(@Optional("chrome") String browserName)
 	hm.Login();
 	//pim.leaveRequest();
 	adp.admin();
+	hm.clickMyInfo();
 	
 }
 	

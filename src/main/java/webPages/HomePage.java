@@ -13,11 +13,16 @@ public class HomePage extends BaseClass
 	private static By userNameField = By.name("username");
 	private static By passwordField = By.name("password");
 	private static By loginButton   = By.xpath(".//*[@type='submit']");
+	private static By myInfoiCON = By.xpath(".//*[text()='My Info']");
 	public static void whyhomeee()
 	{
 		clickTheElement(whyhome);
 	}
 
+ public  static void clickMyInfo()
+{
+	clickTheElement(myInfoiCON);
+}
 	public static void Login() {
 		enterInput(userNameField, "Admin");
 		enterInput(passwordField, "admin123");
