@@ -9,6 +9,7 @@ import baseMethods.BaseClass;
 import baseMethods.DriverFactory;
 import webPages.AdminPage;
 import webPages.HomePage;
+import webPages.MyInfoClasss;
 import webPages.PimPage;
 
 public class Test extends BaseClass
@@ -17,11 +18,12 @@ public class Test extends BaseClass
 private	HomePage hm = new HomePage();
 private PimPage pim = new PimPage();
 private AdminPage adp = new AdminPage();
+private MyInfoClasss myc  = new MyInfoClasss();
 
 
 	
 
-@org.testng.annotations.Test
+@org.testng.annotations.Test(priority = 1)
 
 @Parameters({"browserName"})
 public  void launch(@Optional("chrome") String browserName)
@@ -31,8 +33,18 @@ public  void launch(@Optional("chrome") String browserName)
 	hm.Login();
 	//pim.leaveRequest();
 	adp.admin();
-	hm.clickMyInfo();
+
 	
+}
+
+@org.testng.annotations.Test(priority =2)
+public void myInfoPage()
+{
+
+	hm.clickMyInfo();
+	myc.contactDetailsSection();
+
+
 }
 	
 
