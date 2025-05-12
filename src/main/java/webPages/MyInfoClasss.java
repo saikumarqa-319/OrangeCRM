@@ -1,5 +1,12 @@
 package webPages;
 
+
+import org.openqa.selenium.By;
+
+public class MyInfoClasss
+{
+
+
 import baseMethods.BaseClass;
 import org.jsoup.Connection;
 import org.openqa.selenium.By;
@@ -14,6 +21,7 @@ public class MyInfoClasss extends BaseClass
       clickTheElement(contactDetailsButton);
       clickTheElement(savebutton);
   }
+
 
 
 
