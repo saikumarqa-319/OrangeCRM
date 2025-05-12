@@ -18,7 +18,7 @@ public class Test extends BaseClass
 private	HomePage hm = new HomePage();
 private PimPage pim = new PimPage();
 private AdminPage adp = new AdminPage();
-private MyInfoClasss myc  = new MyInfoClasss();
+private MyInfoClass myc  = new MyInfoClasss();
 
 
 	
