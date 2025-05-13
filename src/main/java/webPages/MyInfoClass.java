@@ -20,6 +20,7 @@ import org.openqa.selenium.By;
             clickTheElement(contactDetailsButton);
 
             enterInput(streetNameField, "8BJBDUU88-Parkstreet");
+            enterInput(cityNameField,"ABUlkala");
             clickTheElement(savebutton);
         }
 
