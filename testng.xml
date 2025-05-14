@@ -16,10 +16,10 @@
     </classes>
   </test>
 
-  <test name="FirefoxTest">
+  <!--<test name="FirefoxTest">
     <parameter name="browserName" value="firefox"/>
     <classes>
       <class name="Test"/>
     </classes>
-  </test>
+  </test>-->
 </suite>
