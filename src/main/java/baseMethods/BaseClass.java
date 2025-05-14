@@ -66,8 +66,12 @@ public class BaseClass
 	 
 	 public static void clickTheElement(By locator)
 	 {
+
+
+		 WebDriverWait wait = new WebDriverWait(threadDriver.get(), Duration.ofSeconds(10));
 		 WebElement element = threadDriver.get().findElement(locator);
-		 element.click();
+		 wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
+
 		 
 	 }
 
